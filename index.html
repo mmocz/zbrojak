@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Zbroják: česká aplikace pro přípravu na zbrojní oprávnění.">
+  <meta name="theme-color" content="#11110f">
+  <title>Zbroják — podpora</title>
+  <style>
+    :root { color-scheme: dark; --ink: #f4f0e8; --muted: #b6b0a4; --orange: #ff9f0a; --panel: #1e1e1b; --line: #363630; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: #11110f; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.55; }
+    main { width: min(100% - 40px, 760px); margin: auto; }
+    header { padding: 72px 0 54px; border-bottom: 1px solid var(--line); }
+    .mark { color: var(--orange); font-size: .78rem; font-weight: 800; letter-spacing: .2em; }
+    h1 { margin: 14px 0; max-width: 640px; font-size: clamp(2.35rem, 8vw, 4.5rem); line-height: .98; letter-spacing: -.06em; }
+    h2 { margin: 0 0 10px; font-size: 1.22rem; }
+    p { margin: 0; color: var(--muted); }
+    .lead { max-width: 575px; font-size: 1.12rem; }
+    section { padding: 34px 0; border-bottom: 1px solid var(--line); }
+    .grid { display: grid; gap: 14px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .card { min-height: 148px; padding: 22px; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; }
+    .card p { font-size: .95rem; }
+    a { color: var(--ink); text-decoration-color: var(--orange); text-underline-offset: 3px; }
+    .button { display: inline-block; margin-top: 20px; padding: 12px 17px; color: #11110f; background: var(--orange); border-radius: 12px; font-weight: 750; text-decoration: none; }
+    ul { margin: 14px 0 0; padding-left: 20px; color: var(--muted); }
+    li + li { margin-top: 7px; }
+    footer { display: flex; gap: 16px; flex-wrap: wrap; padding: 30px 0 48px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 560px) { .grid { grid-template-columns: 1fr; } header { padding-top: 52px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="mark">ZBROJÁK</div>
+      <h1>Příprava s přehledem.</h1>
+      <p class="lead">Česká aplikace pro systematickou přípravu na zbrojní oprávnění a osobní přehled pro držitele.</p>
+      <a class="button" href="https://github.com/mmocz/zbrojak/issues/new?title=Podpora%20Zbroj%C3%A1k">Kontaktovat podporu</a>
+    </header>
+
+    <section>
+      <h2>Co aplikace nabízí</h2>
+      <div class="grid">
+        <article class="card"><h2>Učení</h2><p>Otázky po okruzích, chytré opakování a přehled slabých míst.</p></article>
+        <article class="card"><h2>Test nanečisto</h2><p>Nácvik písemné části ve struktuře skutečné zkoušky.</p></article>
+        <article class="card"><h2>Praktický přehled</h2><p>Kroky k získání oprávnění, ověřené zdroje a přehled střelnic.</p></article>
+        <article class="card"><h2>Jen ve vašem telefonu</h2><p>Studijní postup i osobní záznamy zůstávají v zařízení.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Potřebujete pomoc?</h2>
+      <p>Napište nám přes GitHub. Připojte verzi aplikace, model iPhonu a stručný popis toho, co se stalo. Citlivé osobní údaje do veřejného příspěvku neuvádějte.</p>
+      <a class="button" href="https://github.com/mmocz/zbrojak/issues/new?title=Podpora%20Zbroj%C3%A1k">Otevřít podporu</a>
+    </section>
+
+    <section>
+      <h2>Důležité upozornění</h2>
+      <p>Zbroják je nezávislá vzdělávací pomůcka. Nenahrazuje výcvik s kvalifikovaným instruktorem, pravidla konkrétní střelnice ani aktuální znění právních předpisů. Před zkouškou nebo podáním žádosti si vždy ověřte aktuální požadavky u Ministerstva vnitra ČR a Policie ČR.</p>
+    </section>
+
+    <section>
+      <h2>Soukromí</h2>
+      <p>Zbroják nevyžaduje účet. Učební postup a osobní záznamy jsou uložené pouze v zařízení. Podrobnosti najdete v <a href="privacy.html">zásadách ochrany soukromí</a>.</p>
+    </section>
+
+    <footer>
+      <span>© 2026 Zbroják</span>
+      <a href="privacy.html">Ochrana soukromí</a>
+      <a href="https://github.com/mmocz/zbrojak">GitHub</a>
+    </footer>
+  </main>
+</body>
+</html>
+
